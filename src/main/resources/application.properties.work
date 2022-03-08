@@ -1,0 +1,8 @@
+server.port=8090 // configure port for spring boot application
+keycloak.auth-server-url=https://<RH_SSO_URL>/auth
+keycloak.realm=<Realm_Name>
+keycloak.resource=<Client_ID>
+keycloak.credentials.secret=<Client_Credentials>
+keycloak.ssl-required=external
+keycloak.use-resource-role-mappings = true
+keycloak.bearer-only                = true
